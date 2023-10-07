@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.png" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>B42</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-list"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+          />
+        </svg>
+      </div>
+      <div class="logo">
+        <a href="#"><img src="./src/images/logo.png" alt="Logo" /></a>
+      </div>
+      <div class="search-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-search"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+          />
+        </svg>
+      </div>
+    </header>
+
+    <div class="carousel-container">
+      <div class="carousel" id="carousel1">
+        <img
+          class="carousel-content active"
+          src="./src/images/dream-scenario.webp"
+          alt="Dream Scenario"
+        />
+        <div class="carousel-text">
+          <p>Dream Scenario<span class="exponent">2023</span></p>
+        </div>
+      </div>
+      <div class="carousel" id="carousel2">
+        <img
+          class="carousel-content"
+          src="./src/images/priscilla.webp"
+          alt="Priscilla"
+        />
+        <div class="carousel-text">
+          <p>Priscilla<span class="exponent">2023</span></p>
+        </div>
+      </div>
+      <div class="carousel" id="carousel3">
+        <img
+          class="carousel-content"
+          src="./src/images/stop-making-sense.webp"
+          alt="Stop Making Sense"
+        />
+        <div class="carousel-text">
+          <p>Stop Making Sense<span class="exponent">2023</span></p>
+        </div>
+      </div>
+      <div class="carousel" id="carousel4">
+        <img
+          class="carousel-content"
+          src="./src/images/the-zone-of-interest.webp"
+          alt="The Zone of Interest"
+        />
+        <div class="carousel-text">
+          <p>The Zone of Interest<span class="exponent">2023</span></p>
+        </div>
+      </div>
+      <div class="carousel" id="carousel5">
+        <img
+          class="carousel-content"
+          src="./src/images/iron-claw.webp"
+          alt="Iron Claw"
+        />
+        <div class="carousel-text">
+          <p>Iron Claw<span class="exponent">2023</span></p>
+        </div>
+      </div>
+      <div class="arrow arrow-left" onclick="prevSlide()">&#9664;</div>
+      <div class="arrow arrow-right" onclick="nextSlide()">&#9654;</div>
+    </div>
+
+    <div class="container">
+      <div class="home-stack grid">
+        <div class="stack-item product-grid">
+          <div class="product-image">
+            <img
+              src="./src/images/everthing-everywhere-all-at-once-collector-edition.jpg"
+              alt="Nome do Produto"
+            />
+          </div>
+          <div class="product-content">
+            <h2 class="product-name">
+              Everthing everywhere all at once: Colector's Edition
+            </h2>
+            <a href="#" class="buy-button">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="film-banner">
+      <img
+        class="lazy jpg hero original-orientation-landscape"
+        src="https://d135u4jtzauizi.cloudfront.net/_hero/104366/TalkToMe-Trailer-Thumbnail-CenteredWithRoom.webp"
+        alt="Talk To Me Trailer Thumbnail Centered With Room"
+      />
+      <a href="https://a24films.com/films/talk-to-me">
+        <figcaption>
+          <div class="eyebrow">Watch Now</div>
+          <h2>
+            <a href="https://a24films.com/films/talk-to-me">Talk to Me</a>
+          </h2>
+        </figcaption>
+      </a>
+    </div>
+
+    <footer>
+      <div class="container">
+        <section>
+          <div class="grid">
+            <div class="footer-column">
+              <h4>Explore</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-column">
+              <h4>Follow Us</h4>
+              <nav class="social-links">
+                <a href="#" class="social-icon">
+                  <img src="facebook-icon.png" alt="Facebook" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="twitter-icon.png" alt="Twitter" />
+                </a>
+                <a href="#" class="social-icon">
+                  <img src="instagram-icon.png" alt="Instagram" />
+                </a>
+              </nav>
+            </div>
+            <div class="footer-column">
+              <h4>Contact Us</h4>
+              <p>Email: contact@example.com</p>
+              <p>Phone: +1 (123) 456-7890</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </footer>
+
+    <script src="./src/js/carousel.js"></script>
+  </body>
+</html>
